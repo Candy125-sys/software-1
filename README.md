@@ -1,18 +1,20 @@
-# 软件工程实验1：课程基础与环境搭建
+# PythonProject1
+# 影视收藏与观影记录管理系统
 
-## 任务1：工具安装与配置
-- 编程工具：PyCharm
-- 版本控制：网页版 GitHub
+## 项目简介
+这是一个基于Python开发的本地影视管理工具。用户可以记录自己想看或在看或看过的电影，支持评分、短评、搜索等。
 
-## 任务2：GitHub 仓库创建
-- GitHub 账号：[Candy125-sys](https://github.com/Candy125-sys)
-- 实验仓库：software-1
+## 技术栈
+- 语言：Python 3
+- 界面：Tkinter
+- 数据库：SQLite
+- 图表：Matplotlib
 
-## 任务3：Hello World 提交
-- 已成功提交 `hello.py`，提交记录完整（1次 Commit）。
+## 目录结构
+- `main.py`：程序入口，负责界面展示与交互，即表现层。
+- `db_module.py`：核心数据访问模块，封装了所有数据库操作，即数据访问层。
+- `movie.db`：SQLite数据库文件。
 
-## 任务4：学习目标与时间计划
-### 个人学习目标
-1. 掌握 GitHub 网页端基本操作与版本控制思想。
-2. 熟悉软件工程的需求分析、系统设计和测试流程。
-3. 独立完成课程设计项目的核心代码编写。
+## 运行方法
+1. 确保安装了：`pip install matplotlib`
+2. 运行主程序：`python main.py`
